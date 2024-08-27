@@ -1,0 +1,104 @@
+html {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+
+.body {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px; /* Set the width to 75% of the viewport */
+    max-height: 90vh; /* Set maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added shadow for better visibility */
+    margin: 0 auto; /* Center the element horizontally */
+}
+/* Custom scrollbar styling */
+.body::-webkit-scrollbar {
+    width: 0.5px;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+.body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.body {
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey #f1f1f1;
+}
+
+
+.pic65 {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.side {
+    color: blueviolet;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10px; /* Added padding */
+    border-bottom: 2px solid lightgray; /* Added bottom border for separation */
+    background-color: #f9f9f9; /* Light background color for better visibility */
+}
+h1{
+    font-size: 30pt;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    letter-spacing: 2pt;
+}
+.time, .ing, .inst, .nut {
+    text-align: left;
+    word-spacing: 2pt;
+    line-height: 20pt;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+.time, .ing, .inst li {
+    margin: 10px;
+    padding: 5px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equal column width */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0; /* Added margin for spacing */
+}
+
+.table-row {
+    display: contents;
+    background-color: azure;
+}
+
+.table-cell{
+    border-bottom: 1px solid sandybrown;
+    padding: 10px;    
+    font-size: 13pt;
+    text-align: left;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.table-cell1 {
+    color: crimson;
+    font-size: 15pt;
+    margin-left: 50px;
+    border-bottom: 1px solid sandybrown;
+    padding: 20px;
+    text-align: left;
+}
